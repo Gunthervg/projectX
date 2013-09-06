@@ -59,13 +59,13 @@ public class PictureAlbum extends JFrame {
         lastPicture.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.println(pictureRoller[i].getFilePath());
+//                System.out.println(pictureRoller[i].getFilePath());
                 i--;
                 if(i<0){
                     i=total;
                 }
-                System.out.println(i);
-                System.out.println(total);
+//                System.out.println(i);
+//                System.out.println(total);
                 try {
                     photo=new File(pictureRoller[i].getFilePath());
                     bufferPhoto = ImageIO.read(photo);
@@ -85,13 +85,13 @@ public class PictureAlbum extends JFrame {
         nextPicture.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.println(pictureRoller[i].getFilePath());
+//                System.out.println(pictureRoller[i].getFilePath());
                 i++;
                 if(i>total){
                     i=0;
                 }
-                System.out.println(i);
-                System.out.println(total);
+//                System.out.println(i);
+//                System.out.println(total);
                 try {
                     photo=new File(pictureRoller[i].getFilePath());
                     bufferPhoto = ImageIO.read(photo);

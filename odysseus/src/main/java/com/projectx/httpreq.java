@@ -55,7 +55,7 @@ public class httpreq {
         }
         in.close();
         //print result
-        System.out.println(response.toString());
+//        System.out.println(response.toString());
         if (response.toString().equals("[]")){
             JOptionPane.showMessageDialog(null,"Adres niet gevonden!");
         }

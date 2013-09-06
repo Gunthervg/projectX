@@ -26,7 +26,7 @@ public class PrintClass{
                 while(read!=null){
                     if(read==" "){
                         read=br.readLine();
-                        System.out.println("ik ben ies leeg");
+//                        System.out.println("ik ben ies leeg");
                     }
                     Pictures pic=new Pictures();
                     pic.setFileName(read);
@@ -51,8 +51,8 @@ public class PrintClass{
             } catch (IOException e) {
                 e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
             } catch (NullPointerException e){
-                System.out.println("iets is leeg");
-                System.out.println(e);
+//                System.out.println("iets is leeg");
+//                System.out.println(e);
             }
         }
     }
@@ -61,14 +61,14 @@ public class PrintClass{
         boolean error=new File("data.txt").exists();
         if(error==true){
             try {
-                System.out.println("kom in de check lijst");
+//                System.out.println("kom in de check lijst");
                 BufferedReader br=new BufferedReader((new FileReader("data.txt")));
                 read=br.readLine();
                 int dialogcounter=0;
                 while(read!=null){
                     if(read==" "){
                         read=br.readLine();
-                        System.out.println("ik ben ies leeg");
+//                        System.out.println("ik ben ies leeg");
                     }
                     Pictures pic=new Pictures();
                     pic.setFileName(read);
@@ -98,7 +98,7 @@ public class PrintClass{
             } catch (IOException f) {
                 f.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
             } catch (NullPointerException f){
-                System.out.println("iets is leeg");
+//                System.out.println("iets is leeg");
                 System.out.println(e);
             }
         }

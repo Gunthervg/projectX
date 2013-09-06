@@ -29,6 +29,7 @@ public class MenuBar extends JMenuBar {
         ExitListener();
         HelpDataLauncher();
         PrivacySettingLauncher();
+
     }
     public void AddTabItems(JMenu item,JMenuItem tabitem){
         item.add(tabitem);
