@@ -1,4 +1,4 @@
-package com.projectx;
+package com.projectx.Pictures;
 
 import java.io.File;
 

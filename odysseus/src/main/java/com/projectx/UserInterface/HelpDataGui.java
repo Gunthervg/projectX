@@ -1,4 +1,4 @@
-package com.projectx;
+package com.projectx.UserInterface;
 
 import javax.swing.*;
 import java.awt.*;

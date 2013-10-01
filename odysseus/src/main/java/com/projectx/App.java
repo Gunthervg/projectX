@@ -1,5 +1,8 @@
 package com.projectx;
 
+import com.projectx.Pictures.PrintClass;
+import com.projectx.UserInterface.MainScreen;
+
 import javax.swing.*;
 import java.util.TimerTask;
 import java.util.Timer;
@@ -34,7 +37,7 @@ public class App extends JFrame
             public void run() {
                 start.statusBar.StandardText();
             }
-        },1000,23000);
+        },1000,10000);
         start.setVisible(true);
     }
 }

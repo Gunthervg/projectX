@@ -1,9 +1,8 @@
-package com.projectx;
+package com.projectx.UserInterface;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.FileNotFoundException;
 
 /**
  * @author steve
@@ -29,6 +28,7 @@ public class MenuBar extends JMenuBar {
         ExitListener();
         HelpDataLauncher();
         PrivacySettingLauncher();
+
     }
     public void AddTabItems(JMenu item,JMenuItem tabitem){
         item.add(tabitem);
