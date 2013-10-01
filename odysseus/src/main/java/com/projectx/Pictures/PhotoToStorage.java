@@ -1,7 +1,8 @@
-package com.projectx;
+package com.projectx.Pictures;
+
+import com.projectx.Pictures.Pictures;
 
 import javax.swing.*;
-import java.awt.*;
 import java.io.*;
 
 /**

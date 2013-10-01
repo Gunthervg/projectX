@@ -1,4 +1,4 @@
-package com.projectx;
+package com.projectx.OpenStreetMapPlugin;
 
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonParser;

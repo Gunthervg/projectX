@@ -1,4 +1,8 @@
-package com.projectx;
+package com.projectx.OpenStreetMapPlugin;
+
+import com.projectx.OpenStreetMapPlugin.httpreq;
+import com.projectx.Pictures.PhotoToStorage;
+import com.projectx.Pictures.Pictures;
 
 import javax.swing.*;
 import java.awt.*;

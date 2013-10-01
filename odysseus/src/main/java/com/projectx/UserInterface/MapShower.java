@@ -1,5 +1,6 @@
-package com.projectx;
+package com.projectx.UserInterface;
 
+import com.projectx.mapController;
 import org.openstreetmap.gui.jmapviewer.DefaultMapController;
 import org.openstreetmap.gui.jmapviewer.JMapViewer;
 import org.openstreetmap.gui.jmapviewer.MapMarkerDot;

@@ -1,11 +1,11 @@
-package com.projectx;
+package com.projectx.Pictures;
 
-import org.slf4j.Marker;
+import com.projectx.Pictures.PictureAlbum;
+import com.projectx.Pictures.Pictures;
+import com.projectx.UserInterface.MainScreen;
+import com.projectx.mapController;
 
-import javax.imageio.ImageIO;
-import javax.swing.*;
 import java.awt.event.MouseEvent;
-import java.awt.image.BufferedImage;
 import java.io.*;
 import java.util.ArrayList;
 
@@ -16,8 +16,8 @@ import java.util.ArrayList;
 public class PrintClass{
     //public Pictures pic=new Pictures();
     private String read;
-    PrintClass(){}
-    PrintClass(MainScreen start){
+    public PrintClass(){}
+    public PrintClass(MainScreen start){
         boolean error=new File("data.txt").exists();
         if(error==true){
             try {

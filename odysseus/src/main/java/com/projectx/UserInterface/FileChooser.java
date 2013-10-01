@@ -1,9 +1,10 @@
-package com.projectx;
+package com.projectx.UserInterface;
+
+import com.projectx.OpenStreetMapPlugin.LocationTracker;
+import com.projectx.Pictures.Pictures;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.io.File;
 
 /**
